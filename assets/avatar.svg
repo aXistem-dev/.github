@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="aXistem"><title>aXistem</title><defs>
+<linearGradient id="vbandA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#525b69"/><stop offset="1" stop-color="#2b313a"/></linearGradient>
+<linearGradient id="vbandB" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a6372"/><stop offset="1" stop-color="#2e343d"/></linearGradient>
+<linearGradient id="vaccent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38d6ff"/><stop offset="1" stop-color="#a3ff3f"/></linearGradient>
+<path id="vA" d="M256,128 L376,392 L304,392 L288,354 L224,354 L208,392 L136,392 Z M256,228 L237,300 L275,300 Z"/>
+<polygon id="vfront" points="36,36 170,36 476,476 342,476"/>
+<mask id="vcutBack" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+  <rect width="512" height="512" fill="#fff"/>
+  <use href="#vfront" fill="#000" stroke="#000" stroke-width="20" stroke-linejoin="round"/>
+  <use href="#vA" fill="#000" stroke="#000" stroke-width="28" stroke-linejoin="round"/>
+</mask>
+<mask id="vcutFront" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+  <rect width="512" height="512" fill="#fff"/>
+  <use href="#vA" fill="#000" stroke="#000" stroke-width="28" stroke-linejoin="round"/>
+</mask></defs><rect width="512" height="512" fill="#0d1117"/><g transform="translate(56 56) scale(0.78125)">
+<g mask="url(#vcutBack)">
+  <polygon points="342,36 476,36 170,476 36,476" fill="url(#vbandB)"/>
+  <g fill="none" stroke="#a3ff3f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400,70 L362,124 L362,150"/><rect x="389" y="47" width="22" height="22" rx="4"/>
+    <path d="M440,70 L392,138"/><circle cx="446" cy="61" r="7" fill="#a3ff3f" stroke="none"/>
+    <path d="M112,442 L150,388 L150,362"/><circle cx="106" cy="452" r="11"/>
+    <path d="M72,442 L120,374"/><circle cx="66" cy="451" r="7" fill="#a3ff3f" stroke="none"/>
+  </g>
+</g>
+<g mask="url(#vcutFront)">
+  <use href="#vfront" fill="url(#vbandA)"/>
+  <g fill="none" stroke="#38d6ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112,70 L150,124 L150,150"/><rect x="101" y="47" width="22" height="22" rx="4"/>
+    <path d="M72,70 L120,138"/><circle cx="66" cy="61" r="7" fill="#38d6ff" stroke="none"/>
+    <path d="M400,442 L362,388 L362,362"/><circle cx="406" cy="452" r="11"/>
+    <path d="M440,442 L392,374"/><circle cx="446" cy="451" r="7" fill="#38d6ff" stroke="none"/>
+  </g>
+</g>
+<use href="#vA" fill="url(#vaccent)" fill-rule="evenodd"/></g></svg>
